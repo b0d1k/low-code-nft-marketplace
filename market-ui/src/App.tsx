@@ -227,11 +227,6 @@ function App() {
 			<footer className="footer">
 				<Typography textAlign={"center"} sx={{ color: "white" }}>
 					{/* <Link sx={{color: "white"}} href="https://developer.concordium.software/en/mainnet/index.html" target={"_blank"}>Concordium Developer Documentation</Link> */}
-					<Link
-						sx={{ color: "white" }}
-						href="https://developer.concordium.software/en/mainnet/net/guides/low-code-nft-marketplace/introduction.html"
-						target={"_blank"}>Visit the Concordium documentation portal to create your own marketplace in a few minutes!
-					</Link>
 				</Typography>
 			</footer>
 		</>

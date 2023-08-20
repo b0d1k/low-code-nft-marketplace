@@ -9,7 +9,7 @@ import {
  * Contract Address for Marketplace. You should specify your contract's index when you initialized it.
  */
 export const MARKET_CONTRACT_ADDRESS = {
-	index: BigInt(3913),
+	index: BigInt(5954),
 	subindex: BigInt(0),
 };
 
@@ -45,7 +45,7 @@ export const IPFS_GATEWAY_URL = "https://gateway.pinata.cloud/ipfs/";
 
 // Default value of the new marketplace contract init flag is false.
 // It needs to be set as true in order to allow to create a new marketplace contract instance
-export const CREATE_NEW_MARKETPLACE = true;
+export const CREATE_NEW_MARKETPLACE = false;
 
 // Marketplace has the minting tool as a subtool, set true if the minting tool is required instead of the marketplace.
 export const MINTING_UI_ONLY = false;
